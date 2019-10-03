@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    
+
+}
+
+.box {
+    width: 420px;
+    height: 500px;
+    background: rgba(247, 247, 247, 0.8);
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 10px;
+    
+}
+
+.box .user-ico {
+    width: 120px;
+    height:120px;
+    border-radius: 20%;
+    background: rgba(247, 247, 247, 0.8);;
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 60px) ;
+}
+
+.box h1 {
+    padding: 80px 0 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+.box input {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.box input[type="text"],
+.box input[type="password"]{
+    border: none;
+    border-bottom: 3px solid rgb(50, 223, 128) ;
+    background: transparent;
+    margin-top: 3px;
+    outline: none;
+    height: 40px;
+    color: rgb(24, 24, 24);
+    font-size: 18px;
+    
+    
+
+}
+
+.box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(50, 223, 128);
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+}
+
+.link {
+    text-align: center;
+}
+
+.box a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(99, 99, 99);
+    margin: 5px;
+}
+
+.box a:hover {
+    color: rgb(50, 163, 101);
+}
